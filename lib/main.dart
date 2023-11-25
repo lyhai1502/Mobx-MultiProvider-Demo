@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MultiProvider(
         providers: [
-          Provider<Counter>(create: (_) => Counter()),
+          // Provider<Counter>(create: (_) => Counter()),
           Provider<ThemeBg>(create: (_) => ThemeBg())
         ],
         builder: (context, child) {

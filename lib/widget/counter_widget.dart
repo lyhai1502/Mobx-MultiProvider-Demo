@@ -7,7 +7,8 @@ class CounterWidget extends StatelessWidget {
   const CounterWidget({super.key});
   @override
   Widget build(BuildContext context) {
-    final counter = Provider.of<Counter>(context);
+    // final counter = Provider.of<Counter>(context);
+    final counter = Counter();
     return Column(
       mainAxisAlignment: MainAxisAlignment.start,
       children: <Widget>[
