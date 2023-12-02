@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
-import 'package:mobx_demo/counter/counter.dart';
 import 'package:mobx_demo/theme_bg/theme_bg.dart';
 import 'package:mobx_demo/widget/counter_widget.dart';
 import 'package:mobx_demo/widget/theme_button_widget.dart';
